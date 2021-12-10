@@ -12,3 +12,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021)
 | 6   | [Lanternfish](https://adventofcode.com/2021/day/6)             | [Solution](src/main/kotlin/Day6.kt) |
 | 7   | [The Treachery of Whales](https://adventofcode.com/2021/day/7) | [Solution](src/main/kotlin/Day7.kt) |
 | 8   | [Seven Segment Search](https://adventofcode.com/2021/day/8)    | [Solution](src/main/kotlin/Day8.kt) |
+| 9   | [Smoke Basin](https://adventofcode.com/2021/day/9)             | [Solution](src/main/kotlin/Day9.kt) |
