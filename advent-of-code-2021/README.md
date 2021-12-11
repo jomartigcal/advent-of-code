@@ -14,3 +14,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021)
 | 8   | [Seven Segment Search](https://adventofcode.com/2021/day/8)    | [Solution](src/main/kotlin/Day8.kt)  |
 | 9   | [Smoke Basin](https://adventofcode.com/2021/day/9)             | [Solution](src/main/kotlin/Day9.kt)  |
 | 10  | [Syntax Scoring](https://adventofcode.com/2021/day/10)         | [Solution](src/main/kotlin/Day10.kt) |
+| 11  | [Dumbo Octopus](https://adventofcode.com/2021/day/11)          | [Solution](src/main/kotlin/Day11.kt) |
