@@ -16,3 +16,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021)
 | 10  | [Syntax Scoring](https://adventofcode.com/2021/day/10)         | [Solution](src/main/kotlin/Day10.kt) |
 | 11  | [Dumbo Octopus](https://adventofcode.com/2021/day/11)          | [Solution](src/main/kotlin/Day11.kt) |
 | 12  | [Passage Pathing](https://adventofcode.com/2021/day/12)        | [Solution](src/main/kotlin/Day12.kt) |
+| 13  | [Transparent Origami](https://adventofcode.com/2021/day/13)    | [Solution](src/main/kotlin/Day13.kt) |
