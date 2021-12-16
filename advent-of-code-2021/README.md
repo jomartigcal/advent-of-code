@@ -18,3 +18,4 @@ Solutions for [Advent of Code 2021](https://adventofcode.com/2021)
 | 12  | [Passage Pathing](https://adventofcode.com/2021/day/12)         | [Solution](src/main/kotlin/Day12.kt) |
 | 13  | [Transparent Origami](https://adventofcode.com/2021/day/13)     | [Solution](src/main/kotlin/Day13.kt) |
 | 14  | [Extended Polymerization](https://adventofcode.com/2021/day/14) | [Solution](src/main/kotlin/Day14.kt) |
+| 15  | [Chiton](https://adventofcode.com/2021/day/15)                  | [Solution](src/main/kotlin/Day15.kt) |
