@@ -10,3 +10,4 @@ Solutions for [Advent of Code 2022](https://adventofcode.com/2022)
 | 04  | [Camp Cleanup](https://adventofcode.com/2022/day/4)            | [Solution](src/main/kotlin/Day04.kt) |
 | 05  | [Supply Stacks](https://adventofcode.com/2022/day/5)           | [Solution](src/main/kotlin/Day05.kt) |
 | 06  | [Tuning Trouble](https://adventofcode.com/2022/day/6)          | [Solution](src/main/kotlin/Day06.kt) |
+| 08  | [Treetop Tree House](https://adventofcode.com/2022/day/8)      | [Solution](src/main/kotlin/Day08.kt) |
