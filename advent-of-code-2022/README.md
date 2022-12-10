@@ -11,3 +11,4 @@ Solutions for [Advent of Code 2022](https://adventofcode.com/2022)
 | 05  | [Supply Stacks](https://adventofcode.com/2022/day/5)           | [Solution](src/main/kotlin/Day05.kt) |
 | 06  | [Tuning Trouble](https://adventofcode.com/2022/day/6)          | [Solution](src/main/kotlin/Day06.kt) |
 | 08  | [Treetop Tree House](https://adventofcode.com/2022/day/8)      | [Solution](src/main/kotlin/Day08.kt) |
+| 10  | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10)       | [Solution](src/main/kotlin/Day10.kt) |
