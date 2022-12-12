@@ -12,3 +12,4 @@ Solutions for [Advent of Code 2022](https://adventofcode.com/2022)
 | 06  | [Tuning Trouble](https://adventofcode.com/2022/day/6)          | [Solution](src/main/kotlin/Day06.kt) |
 | 08  | [Treetop Tree House](https://adventofcode.com/2022/day/8)      | [Solution](src/main/kotlin/Day08.kt) |
 | 10  | [Cathode-Ray Tube](https://adventofcode.com/2022/day/10)       | [Solution](src/main/kotlin/Day10.kt) |
+| 11  | [Monkey in the Middle](https://adventofcode.com/2022/day/11)   | [Solution](src/main/kotlin/Day11.kt) |
