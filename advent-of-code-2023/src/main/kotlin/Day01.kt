@@ -9,7 +9,6 @@ fun main() {
     val lines = File("src/main/resources/Day01.txt").readLines()
     val sum1 = lines.sumOf { line ->
         line.first { it.isDigit() }.digitToInt() * 10 + line.last { it.isDigit() }.digitToInt()
-
     }
     println(sum1)
 
