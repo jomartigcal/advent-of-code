@@ -24,9 +24,6 @@ data class Hand(val cards: List<Card>, val bid: Int) {
     fun getRank(hasJoker: Boolean): Int {
         var cardsForRanking = cards.toMutableList()
         if (hasJoker && cards.contains(JOKER)) {
-            while (cardsForRanking.contains(JOKER)) {
-                cardsForRanking.remove(JOKER)
-            }
             if (cards.distinct().size != 5) {
                 val idealCard =
                     if (cards.count { it == JOKER } >= 3
@@ -36,7 +33,9 @@ data class Hand(val cards: List<Card>, val bid: Int) {
                     } else if (cards.count { it == JOKER } == 5) {
                         Card('A')
                     } else {
-                        cardsForRanking.groupingBy { it }.eachCount().maxByOrNull { it.value }?.key
+                        cardsForRanking.filterNot { it == JOKER }
+                            .groupingBy { it }.eachCount()
+                            .maxByOrNull { it.value }?.key
                     }
                 if (idealCard != null) {
                     cardsForRanking = cards.map {
@@ -44,7 +43,7 @@ data class Hand(val cards: List<Card>, val bid: Int) {
                     }.toMutableList()
                 }
             } else {
-                val idealCard = cards.minByOrNull { it.getValue(false) }
+                val idealCard = cards.maxByOrNull { it.getValue(true) }
                 if (idealCard != null) {
                     cardsForRanking = cards.map {
                         if (it == JOKER) idealCard else it
@@ -53,7 +52,7 @@ data class Hand(val cards: List<Card>, val bid: Int) {
             }
         }
 
-        val x = if (cardsForRanking.distinct().size == 1) {
+        return if (cardsForRanking.distinct().size == 1) {
             6 // Five of a kinad
         } else if (
             cardsForRanking.distinct().size == 2 &&
@@ -73,7 +72,6 @@ data class Hand(val cards: List<Card>, val bid: Int) {
         } else {
             0 // High card
         }
-        return x
     }
 }
 
@@ -82,9 +80,7 @@ fun main() {
     val hands = lines.map { hand ->
         val (cards, bid) = hand.split(" ")
         Hand(
-            cards.toList().map { card ->
-                Card(card)
-            },
+            cards.toList().map { card -> Card(card) },
             bid.toInt()
         )
     }
