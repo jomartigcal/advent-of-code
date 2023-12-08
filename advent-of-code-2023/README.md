@@ -10,3 +10,4 @@ Solutions for [Advent of Code 2023](https://adventofcode.com/2023)
 | 05  | [If You Give A Seed A Fertilizer](https://adventofcode.com/2023/day/5) | [Solution](src/main/kotlin/Day05.kt) |
 | 06  | [Wait For It](https://adventofcode.com/2023/day/6)                     | [Solution](src/main/kotlin/Day06.kt) |
 | 07  | [Camel Cards](https://adventofcode.com/2023/day/7)                     | [Solution](src/main/kotlin/Day07.kt) |
+| 08  | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [Solution](src/main/kotlin/Day08.kt) |
