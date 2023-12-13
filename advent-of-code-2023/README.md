@@ -13,3 +13,4 @@ Solutions for [Advent of Code 2023](https://adventofcode.com/2023)
 | 08  | [Haunted Wasteland](https://adventofcode.com/2023/day/8)               | [Solution](src/main/kotlin/Day08.kt) |
 | 09  | [Mirage Maintenance](https://adventofcode.com/2023/day/9)              | [Solution](src/main/kotlin/Day09.kt) |
 | 12  | [Hot Springs](https://adventofcode.com/2023/day/12)                    | [Solution](src/main/kotlin/Day12.kt) |
+| 13  | [Point of Incidence](https://adventofcode.com/2023/day/13)             | [Solution](src/main/kotlin/Day13.kt) |
