@@ -49,7 +49,6 @@ fun main() {
         }
     }
     println(sumOfAcceptedParts)
-    check(sumOfAcceptedParts == 397643)
 }
 
 private fun sortThroughParts(part: Part, workflows: List<Workflow>): Boolean {

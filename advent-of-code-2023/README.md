@@ -16,4 +16,4 @@ Solutions for [Advent of Code 2023](https://adventofcode.com/2023)
 | 13  | [Point of Incidence](https://adventofcode.com/2023/day/13)             | [Solution](src/main/kotlin/Day13.kt) |
 | 14  | [Parabolic Reflector Dish](https://adventofcode.com/2023/day/14)       | [Solution](src/main/kotlin/Day14.kt) |
 | 15  | [Lens Library](https://adventofcode.com/2023/day/15)                   | [Solution](src/main/kotlin/Day15.kt) |
-| 19  | [Aplenty](https://adventofcode.com/2023/day/19)                       | [Solution](src/main/kotlin/Day19.kt) |
+| 19  | [Aplenty](https://adventofcode.com/2023/day/19)                        | [Solution](src/main/kotlin/Day19.kt) |
