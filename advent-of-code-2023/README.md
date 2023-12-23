@@ -18,3 +18,4 @@ Solutions for [Advent of Code 2023](https://adventofcode.com/2023)
 | 15  | [Lens Library](https://adventofcode.com/2023/day/15)                   | [Solution](src/main/kotlin/Day15.kt) |
 | 19  | [Aplenty](https://adventofcode.com/2023/day/19)                        | [Solution](src/main/kotlin/Day19.kt) |
 | 21  | [Step Counter](https://adventofcode.com/2023/day/21)                   | [Solution](src/main/kotlin/Day21.kt) |
+| 23  | [A Long Walk](https://adventofcode.com/2023/day/23)                    | [Solution](src/main/kotlin/Day23.kt) |
