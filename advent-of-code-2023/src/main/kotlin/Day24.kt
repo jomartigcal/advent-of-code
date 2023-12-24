@@ -60,14 +60,14 @@ private fun checkIfHailstonesCross(hailstones: List<Hailstone>, delta1: Double, 
         val y3 = hailstone2.extrapolateY(x3)
         val y4 = hailstone2.extrapolateY(x4)
 
-        val x12 = (x1 - x2)
-        val x34 = (x3 - x4)
-        val y12 = (y1 - y2)
-        val y34 = (y3 - y4)
+        val x12 = x1 - x2
+        val x34 = x3 - x4
+        val y12 = y1 - y2
+        val y34 = y3 - y4
 
-        val c = (x12 * y34 - y12 * x34).toFloat()
-        val a = (x1 * y2 - y1 * x2).toFloat()
-        val b = (x3 * y4 - y3 * x4).toFloat()
+        val c = x12 * y34 - y12 * x34
+        val a = x1 * y2 - y1 * x2
+        val b = x3 * y4 - y3 * x4
 
         val x = (a * x34 - b * x12) / c
         val y = (a * y34 - b * y12) / c
