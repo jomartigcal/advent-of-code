@@ -10,3 +10,4 @@ Solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 05  | [Print Queue](https://adventofcode.com/2024/day/5)             | [Solution](src/main/kotlin/Day05.kt) |
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)      | [Solution](src/main/kotlin/Day11.kt) |
 | 17  | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [Solution](src/main/kotlin/Day17.kt) |
+| 22  | [Monkey Market](https://adventofcode.com/2024/day/22)          | [Solution](src/main/kotlin/Day22.kt) |
