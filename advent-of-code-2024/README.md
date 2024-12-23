@@ -11,3 +11,4 @@ Solutions for [Advent of Code 2024](https://adventofcode.com/2024)
 | 11  | [Plutonian Pebbles](https://adventofcode.com/2024/day/11)      | [Solution](src/main/kotlin/Day11.kt) |
 | 17  | [Chronospatial Computer](https://adventofcode.com/2024/day/17) | [Solution](src/main/kotlin/Day17.kt) |
 | 22  | [Monkey Market](https://adventofcode.com/2024/day/22)          | [Solution](src/main/kotlin/Day22.kt) |
+| 23  | [LAN Party](https://adventofcode.com/2024/day/23)              | [Solution](src/main/kotlin/Day23.kt) |
