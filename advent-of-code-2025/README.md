@@ -1,0 +1,7 @@
+# advent-of-code-2025
+
+Solutions for [Advent of Code 2025](https://adventofcode.com/2025)
+
+| Day | Puzzle                                                 | Solution                             |
+|-----|--------------------------------------------------------|--------------------------------------|
+| 01  | [Secret Entrance](https://adventofcode.com/2024/day/1) | [Solution](src/main/kotlin/Day01.kt) |
