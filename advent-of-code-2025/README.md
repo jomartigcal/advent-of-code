@@ -8,3 +8,4 @@ Solutions for [Advent of Code 2025](https://adventofcode.com/2025)
 | 02  | [Gift Shop](https://adventofcode.com/2025/day/2)           | [Solution](src/main/kotlin/Day02.kt) |
 | 03  | [Lobby](https://adventofcode.com/2025/day/3)               | [Solution](src/main/kotlin/Day03.kt) |
 | 04  | [Printing Department](https://adventofcode.com/2025/day/4) | [Solution](src/main/kotlin/Day04.kt) |
+| 05  | [Cafeteria](https://adventofcode.com/2025/day/5)           | [Solution](src/main/kotlin/Day05.kt) |
